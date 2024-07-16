@@ -4,15 +4,20 @@ let x=1;
 let y=2;
 let z= x+y;
 
-document.write(typeof x)
-document.write(x)
-document.write(typeof y)
-document.write(y)
-document.write(typeof z)
-document.write(z)
-x=2.5
-y=3.4
-document.write(typeof x)
-document.write(x)
-document.write(typeof y)
-document.write(y)
+alert("le type de x est: "+typeof x)
+alert("Sa valeur est: "+ x )
+
+alert("le type de y est: "+typeof y)
+alert("Sa valeur est: "+ y )
+
+alert("le type de z est: "+typeof z)
+alert("Sa valeur est: "+ z )
+
+
+x= parseFloat = 2.5
+y= parseFloat = 3.4
+alert("Apres conversion, le type de x est: "+typeof x)
+alert("Sa valeur est: "+ x )
+
+alert("Apres conversion, le type de y est: "+typeof y)
+alert("Sa valeur est: "+ y )
